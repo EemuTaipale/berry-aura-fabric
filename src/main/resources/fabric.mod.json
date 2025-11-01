@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "berryaura",
+  "version": "${version}",
+  "name": "Berry Aura",
+  "description": "Right-click aura for sweet berry bushes while holding a blaze rod.",
+  "authors": [
+    "Eemu"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.eemu.berryaura.BerryAuraMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
